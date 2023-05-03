@@ -2,10 +2,13 @@ package com.example.MyDocuments;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static com.example.MyDocuments.model.DocumentType.*;
+
 
 import org.junit.jupiter.api.Test;
 
 import com.example.MyDocuments.service.SearchEngine;
+import com.example.MyDocuments.model.DocumentType;
 
 public class MyDocumentsTest {
 
